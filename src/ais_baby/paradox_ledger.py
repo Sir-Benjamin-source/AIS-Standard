@@ -7,6 +7,7 @@ from datetime import datetime
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import ed25519
 from principles import verify_principles_intact  # Eternal Seal check
+from ais_baby.principles import verify_principles_intact
 
 DB_NAME = "paradox_ledger.db"
 
