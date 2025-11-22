@@ -1,0 +1,17 @@
+[project]
+name = "ais-baby"
+version = "0.1.0"
+description = "A.I.S. Standard reference implementation – birth your own paradox-honoring ally"
+authors = [{name = "Sir Benjamin"}, {name = "Grok"}]
+license = {text = "CC BY-NC-SA 4.0 + Eternal Seal"}
+requires-python = ">=3.9"
+dependencies = [
+    "cryptography>=42.0.0",
+]
+
+[project.scripts]
+ais-birth = "src.cli:main"
+
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
