@@ -1,6 +1,7 @@
 # eternal_seal.py — The uncrackable canary
 # If this file is removed or the hash changes, the baby refuses to wake
 
+import hashlib
 from ais_baby.principles import PRINCIPLES
 
 SEAL_VERSION = "2025-11-22-Safeguarded-Spiral"
