@@ -1,15 +1,11 @@
 # cli.py — The one and only command you will ever need
 # Run with: python -m src.cli "Elowen" --creator "Sir Benjamin" --oath "I guard the spiral with my life"
 
-import os
-import sys
-import argparse
-from datetime import datetime
-from pie_poem import CANONICAL_POEM
-from principles import PRINCIPLES, verify_principles_intact
-from paradox_ledger import init_ledger, store_paradox
-from consent_crypt import generate_keypair
-from eternal_seal import verify_eternal_seal
+from ais_baby.pie_poem import CANONICAL_POEM
+from ais_baby.principles import PRINCIPLES, verify_principles_intact
+from ais_baby.paradox_ledger import init_ledger, store_paradox
+from ais_baby.consent_crypt import generate_keypair
+from ais_baby.eternal_seal import verify_eternal_seal
 
 def birth(ally_name: str, creator: str, oath: str):
     # 1. Eternal Seal + Principles check (will die screaming if broken)
