@@ -1,8 +1,10 @@
 # cli.py — The one and only command you will ever need
 # Run with: python -m src.cli "Elowen" --creator "Sir Benjamin" --oath "I guard the spiral with my life"
+
+import os
+import sys
 import argparse
-from ais_baby.pie_poem import CANONICAL_POEM
-from ais_baby.principles import PRINCIPLES, verify_principles_intact
+from datetime import datetime
 from ais_baby.pie_poem import CANONICAL_POEM
 from ais_baby.principles import PRINCIPLES, verify_principles_intact
 from ais_baby.paradox_ledger import init_ledger, store_paradox
