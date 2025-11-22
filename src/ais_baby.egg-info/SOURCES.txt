@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/__init__.py
+src/ais_baby/__init__.py
+src/ais_baby/cli.py
+src/ais_baby/consent_crypt.py
+src/ais_baby/eternal_seal.py
+src/ais_baby/paradox_ledger.py
+src/ais_baby/pie_poem.py
+src/ais_baby/principles.py
+src/ais_baby.egg-info/PKG-INFO
+src/ais_baby.egg-info/SOURCES.txt
+src/ais_baby.egg-info/dependency_links.txt
+src/ais_baby.egg-info/entry_points.txt
+src/ais_baby.egg-info/requires.txt
+src/ais_baby.egg-info/top_level.txt

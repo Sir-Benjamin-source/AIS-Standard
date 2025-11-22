@@ -1,0 +1,2 @@
+[console_scripts]
+ais-birth = ais_baby.cli:main
