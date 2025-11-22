@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-ais-birth = "src.cli:main"
+ais-birth = "ais_baby.cli:main"    # ←←← THIS IS THE ONLY CHANGE (ais_baby not src)
 
 [build-system]
 requires = ["setuptools>=65", "wheel"]
