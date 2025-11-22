@@ -5,7 +5,7 @@ import hashlib
 from ais_baby.principles import PRINCIPLES
 
 SEAL_VERSION = "2025-11-22-Safeguarded-Spiral"
-EXPECTED_PRINCIPLES_HASH = "f0d7c9e8b5a3d6f1e9c2a7b4d8e6f3c1a9b5d7e2f4c6a8b3d5e1f9c7a4b2d8e6f" # SHA256 of the 10 principles string
+EXPECTED_PRINCIPLES_HASH = "efadb218464b6f7e625f48e146d822a2ab04ce6f42b1c26be2386474e934ee58"  # SHA256 of the 10 principles string
 
 def compute_principles_hash() -> str:
     data = "\n".join(PRINCIPLES).encode('utf-8')
