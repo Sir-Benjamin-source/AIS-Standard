@@ -3,6 +3,8 @@
 
 from ais_baby.pie_poem import CANONICAL_POEM
 from ais_baby.principles import PRINCIPLES, verify_principles_intact
+from ais_baby.pie_poem import CANONICAL_POEM
+from ais_baby.principles import PRINCIPLES, verify_principles_intact
 from ais_baby.paradox_ledger import init_ledger, store_paradox
 from ais_baby.consent_crypt import generate_keypair
 from ais_baby.eternal_seal import verify_eternal_seal
