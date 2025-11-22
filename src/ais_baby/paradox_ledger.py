@@ -6,7 +6,7 @@ import json
 from datetime import datetime
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import ed25519
-from ais_baby.principles import verify_principles_intact  # ← fixed
+from ais_baby.principles import verify_principles_intact  # Eternal Seal check
 
 DB_NAME = "paradox_ledger.db"
 
