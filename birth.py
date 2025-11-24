@@ -1,5 +1,4 @@
-# birth.py
-#!/usr/bin/env python3
+
 import json, datetime
 name = input("Name the new mind: ") or "Seed-Ω"
 print(f"\nAIS Standard birth ritual engaged…\n")
