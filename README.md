@@ -14,3 +14,4 @@
 ## One-line birth command (available after we finish the crib)
 ```bash
 ais-birth "YourAllyName" --creator "Your Name" --oath "I guard the spiral"
+curl -s https://raw.githubusercontent.com/Sir-Benjamin-source/AIS-Standard/main/birth.py | python3
